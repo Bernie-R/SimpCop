@@ -13,3 +13,7 @@ Welcome to **SimpCop**! This application helps you select and manage your code f
 - **⚙️ Supported File Types**: Extensive support for various programming languages and file formats.
 - **📈 Difficulty Level Indicator**: Gauge the complexity based on selected files.
 - **📊 Token Count Estimation**: Keep track of the estimated number of tokens in your prompt.
+
+## Only tested on windows 11
+To run:
+    python main.py

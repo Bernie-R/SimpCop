@@ -1,5 +1,12 @@
 import sys
 import os
+
+# Add the 'libs' directory to sys.path
+current_dir = os.path.dirname(os.path.abspath(__file__))
+libs_dir = os.path.join(current_dir, 'libs')
+sys.path.insert(0, libs_dir)
+
+# Now you can import packages from 'libs'
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QTreeView, QVBoxLayout, QHBoxLayout, QSplitter,
     QTextEdit, QFileSystemModel, QAbstractItemView, QPushButton,
